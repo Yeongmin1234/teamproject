@@ -80,7 +80,7 @@
 
     <header id="header">
         <div id="headerIn">
-            <h1 class="logo"><a href="/#"><img src="/resources/img/logo.png" alt="취공사"></a></h1>
+            <h1 class="logo"><a href="/"><img src="/resources/img/logo.png" alt="취공사"></a></h1>
             <nav class="gnb">
                 <ul>
                     <li><a href=""></a></li>
@@ -90,7 +90,7 @@
             </nav><!-- .gnb -->
             <div class="util">
                 <ul>
-                    <li><a href="Login_main.html">로그인</a></li>
+                    <li><a href="/join/login">로그인</a></li>
                     <li class="login_show"><a href="">로그아웃</a></li>
                     <li class="login_show"><a href="">회원정보수정</a></li>
                     <li><a href="/join/membership">회원가입</a></li>

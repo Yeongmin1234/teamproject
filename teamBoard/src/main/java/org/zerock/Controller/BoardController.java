@@ -24,8 +24,6 @@ public class BoardController {
 	private BoardService service;
 	
 	// 게시물 목록
-	// 게시물 목록
-	// 게시물 목록
 //	@RequestMapping(value = "/board/list", method = RequestMethod.GET)
 	@GetMapping("list")
 	public void list(Model model, Criteria cri) {

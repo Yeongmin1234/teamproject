@@ -73,4 +73,12 @@ public class UserController {
 		return "redirect:/";
 		//탈퇴 알림창을 띄운후 홈화면으로
 	}
+	@GetMapping("login")
+	public void login() {
+		log.info("login");
+	}
+	@GetMapping("find")
+	public void find() {
+		log.info("find");
+	}
 }

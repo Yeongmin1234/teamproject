@@ -1617,6 +1617,8 @@ pre code {
   min-height: 1px;
   padding-right: 15px;
   padding-left: 15px;
+  top:-20px;
+  left: 10px;
 }
 .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
   float: left;
@@ -2555,7 +2557,7 @@ output {
   line-height: 1.42857143;
   color: #555;
   background-color: #fff;
-  background-image: none;
+  
   border: 1px solid #ccc;
   border-radius: 4px;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
@@ -3017,7 +3019,7 @@ select[multiple].input-lg {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
-  background-image: none;
+  
   border: 1px solid transparent;
   border-radius: 4px;
 }
@@ -3038,7 +3040,7 @@ select[multiple].input-lg {
 }
 .btn:active,
 .btn.active {
-  background-image: none;
+  
   outline: 0;
   -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
           box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
@@ -3095,7 +3097,7 @@ fieldset[disabled] a.btn {
 .btn-default:active,
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
-  background-image: none;
+  
 }
 .btn-default.disabled:hover,
 .btn-default[disabled]:hover,
@@ -3152,7 +3154,7 @@ fieldset[disabled] .btn-default.focus {
 .btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
-  background-image: none;
+  
 }
 .btn-primary.disabled:hover,
 .btn-primary[disabled]:hover,
@@ -3209,7 +3211,7 @@ fieldset[disabled] .btn-primary.focus {
 .btn-success:active,
 .btn-success.active,
 .open > .dropdown-toggle.btn-success {
-  background-image: none;
+  
 }
 .btn-success.disabled:hover,
 .btn-success[disabled]:hover,
@@ -3266,7 +3268,7 @@ fieldset[disabled] .btn-success.focus {
 .btn-info:active,
 .btn-info.active,
 .open > .dropdown-toggle.btn-info {
-  background-image: none;
+  
 }
 .btn-info.disabled:hover,
 .btn-info[disabled]:hover,
@@ -3323,7 +3325,7 @@ fieldset[disabled] .btn-info.focus {
 .btn-warning:active,
 .btn-warning.active,
 .open > .dropdown-toggle.btn-warning {
-  background-image: none;
+  
 }
 .btn-warning.disabled:hover,
 .btn-warning[disabled]:hover,
@@ -3380,7 +3382,7 @@ fieldset[disabled] .btn-warning.focus {
 .btn-danger:active,
 .btn-danger.active,
 .open > .dropdown-toggle.btn-danger {
-  background-image: none;
+  
 }
 .btn-danger.disabled:hover,
 .btn-danger[disabled]:hover,
@@ -3582,7 +3584,7 @@ tbody.collapse.in {
   text-decoration: none;
   cursor: not-allowed;
   background-color: transparent;
-  background-image: none;
+  
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
 }
 .open > .dropdown-menu {
@@ -4299,7 +4301,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   margin-right: 15px;
   margin-bottom: 8px;
   background-color: transparent;
-  background-image: none;
+  
   border: 1px solid transparent;
   border-radius: 4px;
 }
@@ -4348,7 +4350,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
   .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-nav .open .dropdown-menu > li > a:focus {
-    background-image: none;
+    
   }
 }
 @media (min-width: 768px) {
@@ -4711,7 +4713,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .pagination {
   display: inline-block;
   padding-left: 0;
-  margin: 20px 0;
+  margin: 20px 0 20px 100px;
   border-radius: 4px;
 }
 .pagination > li {

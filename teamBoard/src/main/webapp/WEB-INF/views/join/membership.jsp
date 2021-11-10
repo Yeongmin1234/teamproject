@@ -25,7 +25,7 @@
             <!-- content-->
             <div id="content">
 
-    <form action="membership" method="post" >
+    <form action="membership" method="post" onsubmit="return clickBtn()">
                 <!-- ID -->
                 <div>
                     <h3 class="join_title">

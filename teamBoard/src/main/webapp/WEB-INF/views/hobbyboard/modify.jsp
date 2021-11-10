@@ -18,7 +18,7 @@
     <div id="wrap">
         <header id="header">
             <div id="headerIn">
-                <h1 class="logo"><a href="./index.html"><img src="img/logo.png" alt="취공사"></a></h1>
+                <h1 class="logo"><a href="/"><img src="/resources/img/logo.png" alt="취공사"></a></h1>
                 <nav class="gnb">
                     <ul>
                         <li><a href=""></a></li>
@@ -35,17 +35,11 @@
                         <li><a href="index1.html">ENG</a></li>
                     </ul>
                 </div><!-- .util -->
-                <div class="search">
-                    <form action="" name="h_search_box">
-                        <fieldset>
-                            <legend>검색</legend>
-                            <input type="text" class="hs_input_text" name="hs_pd_name" id="hs_pd_name">
-                            <input type="button" value="" class="hs_input_btn" id="hs_sesarch_submit">
-                        </fieldset>
-                    </form>
-                </div><!--.search-->
             </div><!-- #headerIn -->
         </header>
+        
+        
+        
     <div id="write-wrap">
     <form action="modify" method="post" >
         <div id="write-main">
@@ -73,7 +67,7 @@
     <div id="footer">
         <div class="footerIn">
             <div class="fL">
-                <div class="fLogo"><img src="img/logo.png" alt=""></div>
+                <div class="fLogo"><img src="/resources/img/logo.png" alt=""></div>
                 <div class="copyright">
                     Copyright ⓒ 2021 취공사 All Rights Reserved.
                 </div>
@@ -82,7 +76,7 @@
                 <div class="fCs">
                     <h3>문의사항</h3>
                     <p class="tel">
-                        <img src="./img/icon_tel.png" alt="">
+                        <img src="/resources/img/icon_tel.png" alt="">
                         <span></span>
                     </p>
                     <P class="time">
@@ -91,7 +85,7 @@
                     </P>
                 </div>
             <div class="goTop">
-                <a href="#"><img src="./img/btn_top.png"></a>
+                <a href="#"><img src="/resources/img/btn_top.png"></a>
             </div>
         </div><!-- .footerIn-->
     </div><!-- #footer -->

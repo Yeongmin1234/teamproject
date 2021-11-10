@@ -46,7 +46,7 @@
     text-align: center;
 }
 .gnb .gnb_point a{
-    color: yellow;
+    color: #fff;
 }
 .gnb ul li a{
     font-size: 20px;
@@ -58,11 +58,14 @@
 }
 .gnb li:nth-child(2){
     content: "";
-    background-color: rgba(10, 10, 202, 0.575);
+    border:1px solid #ddd;
+    background-color:gray;
 }
 .gnb li:not(:nth-child(2)){
     content: "";
-    background-color: rgba(61, 231, 61, 0.623);
+    border:1px solid #ddd;
+    background-color:gray;
+    
 }
 
 .util{

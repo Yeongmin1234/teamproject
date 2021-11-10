@@ -96,6 +96,7 @@ function comparePw() {
         pwImg2.src = "../resources/img/m_icon_check_disable.png";
         error[2].innerHTML = "비밀번호가 일치하지 않습니다.";
         error[2].style.display = "block";
+        alert("어딜 넘어가 비밀번호가 일치하지 않는다니까.")
     } 
 
     if(pw2.value === "") {
@@ -122,11 +123,8 @@ function checkBirth(){
 	if(birth.value==""){
 		 error[4].innerHTML="필수정보입니다";
 		 error[4].style.display = "block";
-	} else if(birth.value!=/[0-9]{8}/){
+	} else if(birth.value.length!=8){
 		error[4].innerHTML="형식에 맞지 않는 번호입니다";
-		error[4].style.display = "block";
-	} else if(birth.value.length>8){
-		error[4].innerHTML="ex.19991101";
 		error[4].style.display = "block";
 	} else {
 		error[4].style.display = "none";
@@ -217,20 +215,43 @@ function checkPhoneNum() {
     
 }
 
-$(document).ready(function(){
+
 	
 	
-	$('#btnJoin').click(function(){
-		
-		if($(document).find("input[type='text']")==""){
-			alert("모든 정보를 입력해 주세요");
+	function clickBtn(){
+		//alert($('#id').val().length);
+		if($('#id').val().length==0){
+			alert("아이디를 입력해 주세요");
 			return false;
-		} else if($(document).find("input[type='text']")!=""){
+		} else if($('#pswd1').val().length==0){
+			alert("비밀번호를 입력해 주세요");
+			return false;
+		} else if($('#pswd2').val().length==0){
+			alert("패스워드를 확인해 주세요");
+			return false;
+		} else if($('#name').val().length==0){
+			alert("이름를 입력해 주세요");
+			return false;
+		} else if($('#birth').val().length==0){
+			alert("생년월일를 입력해 주세요");
+			return false;
+		} else if($('#email').val().length==0){
+			alert("이메일를 입력해 주세요");
+		}else if(!/[a-z0-9]{2,}@[a-z0-9-]{2,}\.[a-z0-9]{2,}/.test(email.value)){
+			alert("이메일 주소를 다시 확인해주세요.");
+			return false;
+		} else if($('#mobile').val().length==0){
+			alert("폰번호를 입력해 주세요");
+			return false;
+		} else if(!/([01]{2})([01679]{1})([0-9]{3,4})([0-9]{4})/.test(mobile.value)){
+			alert("폰번호를 올바르게 입력해 주세요");
+			return false;
+		}  else{
 			alert("축하드립니다~가입이 완료되었습니다!!!");
+			return true;
 		}
-		
-	})
-})
+	}
+
 
 /*
 2월 : 윤년에는 29일까지, 평년에는 28일까지.

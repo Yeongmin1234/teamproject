@@ -46,7 +46,7 @@
     text-align: center;
 }
 .gnb .gnb_point a{
-    color: yellow;
+    color: #fff;
 }
 .gnb ul li a{
     font-size: 20px;
@@ -58,11 +58,14 @@
 }
 .gnb li:nth-child(2){
     content: "";
-    background-color: rgba(10, 10, 202, 0.575);
+    border:1px solid #ddd;
+    background-color:gray;
 }
 .gnb li:not(:nth-child(2)){
     content: "";
-    background-color: rgba(61, 231, 61, 0.623);
+    border:1px solid #ddd;
+    background-color:gray;
+    
 }
 
 .util{
@@ -123,14 +126,14 @@
 #board-wrap{
     width: 100%;
     min-width: 1200px;
-    margin-top: 20px;
+    margin:10px;
 }
 #board-in{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin: 0 auto;
     width: 1280px;
-    height: 700px;
+    height: 800px;
 }
 #left-area{
     width: 200px;
@@ -140,7 +143,7 @@
 }
 #board-main{
     position: relative;
-    width: 700px;
+    width: 800px;
     background-color: darkgrey;
 }
 
@@ -149,7 +152,7 @@
     width: 400px;
     height: 40px;
     border-radius: 15px;
-    background-color: rgba(0, 81, 255, 0.726);
+    background-color: #ddd;
     border: none;
     margin: 10px auto 0 auto;
 }
@@ -158,7 +161,7 @@
     align-content: center;
 }
 .bs_input_text{
-    width: 240px;
+    width: 260px;
     height: 40px;
     background-color: transparent;
     border: 0;
@@ -167,6 +170,11 @@
     padding-right: 30px;
     font-size: 15px;
 }
+
+.select_T {
+	width: 52px;
+} 
+
 .bs_input_btn{
     width: 30px;
     height: 30px;

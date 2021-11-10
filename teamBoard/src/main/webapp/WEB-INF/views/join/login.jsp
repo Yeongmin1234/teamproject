@@ -8,6 +8,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/resources/css/Login_main.css">
     <link rel="stylesheet" href="/resources/css/reset.css">
+     <!-- jquery연결 -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- jquery UI연결 -->
+    <script src='//cdnjs.cloudflare.com/ajax/libs/jquery-throttle-debounce/1.1/jquery.ba-throttle-debounce.min.js'></script>
+    <script type="text/javascript" src="/resources/js/mmm.js"></script>
     <title>취공사 로그인</title>
 </head>
 <body>
@@ -26,8 +31,8 @@
                 </li>
 
             <ul id="buttons">
-                <li class="end_btn"><button type="submit">로그인</button></li>
-                <li class="end_btn"><button type="reset"><a href="/join/find">ID / 비밀번호 찾기</button></a></li>
+                <li class="end_btn"><button class=goLo><a href="/login">로그인</a></button></li>
+                <li class="end_btn"><button><a href="/join/find">ID / 비밀번호 찾기</a></button></li>
             </ul>
                 <p class="p_btn"><button><a href="/join/membership">회원가입</a></button></p>
         </form>
@@ -56,7 +61,6 @@
         </div><!-- .footerIn-->
     </div><!-- #footer -->
 
-    
     
 </body>
 </html>

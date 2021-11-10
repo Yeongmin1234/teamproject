@@ -46,8 +46,16 @@
     box-sizing: border-box;
 }
 
-
-
+.move{
+	height:454px;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+#pwBtn{
+	display:flex;
+	justify-content: center;
+}
 
 .container_in{
     width: 1280px;
